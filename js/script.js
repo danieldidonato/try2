@@ -8,7 +8,7 @@ $('.js-modal').on($.modal.BEFORE_OPEN, (e, modal) => {
 
 
 const $giphContainer3 = $('.js-beachGif')
-const gifURL3 = 'http://api.giphy.com/v1/gifs/search?q=ocean&api_key=Nlu41GYoEb83vQiekoMQsuciJgIpkEQZ'
+const gifURL3 = 'https://api.giphy.com/v1/gifs/search?q=ocean&api_key=Nlu41GYoEb83vQiekoMQsuciJgIpkEQZ'
 $.get(gifURL3, response => {
 	const gifs3 = response.data;
 	// for (let i = 0; i < gifs.length; i++) {
@@ -21,7 +21,7 @@ $.get(gifURL3, response => {
 
 
 const $giphContainer = $('.js-rainGif')
-const gifURL = 'http://api.giphy.com/v1/gifs/search?q=rain&api_key=Nlu41GYoEb83vQiekoMQsuciJgIpkEQZ'
+const gifURL = 'https://api.giphy.com/v1/gifs/search?q=rain&api_key=Nlu41GYoEb83vQiekoMQsuciJgIpkEQZ'
 $.get(gifURL, response => {
 	const gifs = response.data;
 	// for (let i = 0; i < gifs.length; i++) {
@@ -33,7 +33,7 @@ $.get(gifURL, response => {
 
 
 const $giphContainer1 = $('.js-windGif')
-const gifURL1 = 'http://api.giphy.com/v1/gifs/search?q=field%20breeze&api_key=Nlu41GYoEb83vQiekoMQsuciJgIpkEQZ'
+const gifURL1 = 'https://api.giphy.com/v1/gifs/search?q=field%20breeze&api_key=Nlu41GYoEb83vQiekoMQsuciJgIpkEQZ'
 $.get(gifURL1, response => {
 	const gifs1 = response.data;
 	// for (let i = 0; i < gifs.length; i++) {
@@ -45,7 +45,7 @@ $.get(gifURL1, response => {
 
 
 const $giphContainer2 = $('.js-rushingGif')
-const gifURL2 = 'http://api.giphy.com/v1/gifs/search?q=nature%20waters&api_key=Nlu41GYoEb83vQiekoMQsuciJgIpkEQZ'
+const gifURL2 = 'https://api.giphy.com/v1/gifs/search?q=nature%20waters&api_key=Nlu41GYoEb83vQiekoMQsuciJgIpkEQZ'
 $.get(gifURL2, response => {
 	const gifs2 = response.data;
 	// for (let i = 0; i < gifs.length; i++) {
